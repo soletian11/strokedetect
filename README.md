@@ -15,8 +15,18 @@ Expermimented using below models:
        3.Random Forest
 
 
-Outcome of Models:Trained dataset using different mentioned models and  tuned with different hyper params and random forest amaizng ROC_AUC Score .So RF ROC AUC Score is clealry evident from notebook.ipynn file 
-Project Direcory:All files are tucked into midterm_projects
+> **Outcome of Models**:I trained the dataset using different models, tuned them with various hyperparameters, and found that Random Forest achieved a great ROC_AUC score after tuning.
+
+Project Directory: All files are organized in the 'midterm_projects' folder:
+
+      1. 'notebook.ipynb': This file contains the complete code for all the models.
+      2. 'healthcare-dataset-stroke-data.csv': This is the dataset used for evaluating the models and making predictions. It's stored in the Git repository.
+      3. 'model_C=10.bin': This folder contains the binary file for the Logistic Regression model, and it will be available in Docker.
+      4. 'Pip Files': These files are used by Docker to install Python-dependent packages."
+
+This revised version is more structured and grammatically correct.
+      
+      
       ![image](https://github.com/soletian11/strokedetect/assets/87721131/a9d57fa8-7dc7-4730-be55-46190425e1c3)
 
   
