@@ -30,7 +30,12 @@ Project Directory: All files are organized in the 'midterm_projects' folder:
       8.Test_record_1031:Hold single patient info using container service 
 
 How to test and predict record using docker container:
-      1.Create Mid Team Project Folder.
+      1.Create midterm_projects Folder.
+      2.Download docker file and all other files to above directory.
+      3.docker build -t midtermproj .
+      4.docker run -it --rm --entrypoint=bash midtermproj:latest
+      5.gunicorn --bind 0.0.0.0:9696 predict:app
+      6.Open Test_record_1031  and add json record  to test out.
       
       
       
