@@ -29,7 +29,7 @@ Project Directory: All files are organized in the 'midterm_projects' folder:
       7.train.py: Used for testing for one  recod without need of docker.
       8.Test_record_1031:Hold single patient info using container service 
 
-How to test and predict recod using docker container:
+How to test and predict record using docker container:
       1.Create Mid Team Project Folder.
       
       
