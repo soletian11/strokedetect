@@ -11,5 +11,5 @@ COPY ["Pipfile","Pipfile.lock","./"]
 
 RUN pipenv install --system --deploy
 
-COPY ["model_C=10.bin","predict.py","./"] 
+COPY ["model_rf.bin","predict.py","./"] 
 
